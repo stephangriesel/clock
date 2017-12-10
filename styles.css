@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Square');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to left bottom, #e3e3e3, #b3bcc7, #799aa6, #3e7979, #195741) fixed;
+}
+
+.main {
+    background:#333131;
+    width:400px;
+    margin:200px auto;
+    height:190px;
+    position:relative;
+    padding:42px;
+}
+
+.badge {
+    background: #ff7a7a;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight:900;
+    width:100px;
+    position: absolute;
+    top:-10px;
+    left:35%;
+}
+
+.clock {
+    background: #d6d6d6;
+    border-radius:10px;
+    text-align: center;
+    font-size:40px;
+    height:100%;
+    vertical-align: middle;
+    padding:9% 0;
+    font-family: 'Nova Square', cursive;
+}
